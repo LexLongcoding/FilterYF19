@@ -1,0 +1,14 @@
+FILTER YF-19 - Linux (x86_64)
+=============================
+
+VST3 PLUGIN
+  Copy the "Filter YF-19.vst3" folder to ~/.vst3/ and rescan in your DAW.
+
+STANDALONE
+  Run "./Filter YF-19". Options -> Audio/MIDI Settings for devices (ALSA, or JACK if installed).
+
+MIDI
+  CC 74 = cutoff, CC 71 = resonance by default; MIDI LEARN maps anything else.
+
+LICENSE
+  GNU AGPL v3.0 or later (see LICENSE.txt).

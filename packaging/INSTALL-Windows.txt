@@ -1,0 +1,21 @@
+FILTER YF-19 - Windows (64-bit)
+===============================
+
+VST3 PLUGIN
+  1. Copy the whole "Filter YF-19.vst3" folder to:
+       C:\Program Files\Common Files\VST3\
+     (Windows will ask for administrator permission - click Continue.)
+  2. In your DAW, rescan plugins. Filter YF-19 appears as an effect (Fx / Filter).
+  3. Put it in the FX slot AFTER your synth (e.g. after Spire) so it filters the finished sound.
+
+MIDI
+  CC 74 = cutoff and CC 71 = resonance out of the box. Click MIDI LEARN to map anything else.
+  Your DAW has to send MIDI to the effect - see README for Reaper / FL / Bitwig / Cubase / Ableton.
+
+STANDALONE
+  Double-click "Filter YF-19.exe". Options -> Audio/MIDI Settings to pick input, output and controller.
+  Windows may show "Windows protected your PC" the first time (the app isn't code-signed):
+  click "More info" -> "Run anyway".
+
+LICENSE
+  Free, open-source software under the GNU AGPL v3.0 or later (see LICENSE.txt).
